@@ -1,20 +1,24 @@
 import React from 'react'
 
-function Card(prop) {
+function Projects(props) {
+
     return(
-        <div className="container">
-            <div className="card">
-                <img className="card-img-top" alt="image"/>
-                <div className="card-body">
-                    <h5 className="card-title">Project: {prop.name}</h5>
-                    <p className="card-text">Description: {prop.description}</p>
-                    <a href={prop.link} className="btn btn-primary">
-                        <img src="../../assets/github-logo.png"></img>
-                    </a>
-                </div>
+        <div>
+            <div className="columns is-justify-content-center is-flex-wrap-warp is-flex-direction-row">
+                {props.projects.map((projects) => {
+                    <div className="card" style="width: 18rem;">
+                        <img src={projects.image} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">{projects.name}</h5>
+                            <p className="card-text">{projects.description}</p>
+                        </div>
+                            <a href={projects.github} className="card-link">Github</a>
+                        </div>
+                })}
             </div>
         </div>
+
     )
 }
 
-export default Card;
+export default Projects;
