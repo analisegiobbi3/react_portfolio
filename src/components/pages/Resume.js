@@ -20,28 +20,28 @@ function Resume(){
                 <div className='column'>
                     <p className='content is-medium'>Skills:</p>
                     <hr />
-                    <h2>Front End</h2>
-                    <ul>
+                    <h2>Front-End</h2>
+                    <ol>
                         <li>HTML, CSS, Javascript</li>
                         <li>Insomnia, API Testing</li>
                         <li>mongoDB, SQL</li>
                         <li>Git</li>
                         <li>React</li>
-                    </ul>
-                    <h2>Back End</h2>
-                    <ul>
+                    </ol>
+                    <h2>Back-End</h2>
+                    <ol>
                         <li>HTML, CSS, Javascript</li>
                         <li>Insomnia, API Testing</li>
                         <li>mongoDB, SQL</li>
                         <li>Git</li>
                         <li>React</li>
-                    </ul>
+                    </ol>
                     <h2>Languages</h2>
-                    <ul>
+                    <ol>
                         <li>Javascript/Typscript</li>
                         <li>Swift</li>
 
-                    </ul>
+                    </ol>
 
                 </div>
                 <p className='content is-medium' style={styles.resume}>

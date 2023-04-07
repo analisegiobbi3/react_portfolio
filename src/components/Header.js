@@ -31,8 +31,8 @@ function PortfolioContainer(){
 
     return (
         <div>
-            <header>
-                <h1>Portfolio</h1>
+            <header className='header'>
+                <h1>Analise Giobbi</h1>
                 <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
             {renderPage()}
