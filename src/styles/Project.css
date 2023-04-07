@@ -1,6 +1,7 @@
 
 .card{
     width: 20rem;
+
 }
 
 .card:hover{
@@ -19,4 +20,9 @@
 
 .container-fluid .row{
     padding-top: 6rem;
+}
+
+img{
+    height: 200px;
+    width: auto;
 }

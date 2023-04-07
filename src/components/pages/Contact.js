@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+// import { validateEmail } from '../../../utils/helpers';
 
 function Contact(){
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('')
 
     function handleInputChange(e){
         const { target } = e;
@@ -22,6 +24,9 @@ function Contact(){
 
     function handleFormSubmit (e){
         e.preventDefault()
+        // if (!validateEmail(email)){
+        //     setErrorMessage('Email is invalid')
+        // }
         alert('Request Submitted')
         setEmail('')
         setMessage('')
@@ -76,6 +81,9 @@ function Contact(){
                 </div>
                 <button className='btn btn-danger' type='submit' onClick={()=> handleFormSubmit()}>Submit</button>
             </form>
+            <div>
+                {/* <p className='error-text'>{errorMessage}</p> */}
+            </div>
         </div>
     )
 

@@ -1,6 +1,15 @@
 import React from 'react'
 import Project from './Project'
 
+const style = {
+    header: {
+        textAlign: 'center',
+        color: '#84a98c',
+        fontFamily: 'Georgia',
+        marginTop: '5px'
+    },
+}
+
 
 function Portfolio() {
     const projects = [
@@ -36,7 +45,7 @@ function Portfolio() {
 
     return (
         <div>
-            <h2>Portfolio</h2>
+            <h2 style={style.header}>My Projects</h2>
             <div className='container-fluid d-flex justify-content-center'>
                     <div>
                         <Project projects={projects}/>

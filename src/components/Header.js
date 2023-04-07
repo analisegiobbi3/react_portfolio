@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import AboutMe from './pages/About';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -10,11 +10,11 @@ import '../styles/Header.css'
 
 
 function PortfolioContainer(){
-    const [currentPage, setCurrentPage] = useState('AboutMe')
+    const [currentPage, setCurrentPage] = useState('About')
 
     const renderPage = () => {
-        if (currentPage === 'AboutMe'){
-            return <AboutMe />;
+        if (currentPage === 'About'){
+            return <About />;
         }
         if (currentPage === 'Contact'){
             return <Contact />;
