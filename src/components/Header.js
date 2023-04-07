@@ -5,6 +5,10 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavTabs from './NavTabs'
 
+import '../styles/Header.css'
+
+
+
 function PortfolioContainer(){
     const [currentPage, setCurrentPage] = useState('AboutMe')
 
@@ -26,12 +30,13 @@ function PortfolioContainer(){
     const handlePageChange = (page) => setCurrentPage(page)
 
     return (
-        <header>
-            <h1>Portfolio</h1>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>
+            <header>
+                <h1>Portfolio</h1>
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            </header>
             {renderPage()}
-        </header>
-        
+        </div>
     )
 }
 

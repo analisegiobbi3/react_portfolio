@@ -9,7 +9,7 @@ function Portfolio() {
             name:'Just Read It',
             description:'An app for tracking the books you love to read',
             github: 'https://github.com/analisegiobbi3/Just_Read_It',
-            image: '/img/books.jpeg'
+            image: '/img/books.png'
         },
         {
             id: 1,
@@ -23,7 +23,7 @@ function Portfolio() {
             name:"Adopt Don't Shop",
             description:'Project showing skills applying third party api data',
             github: 'https://github.com/analisegiobbi3/adopt_dont_shop',
-            image: '/img/adoptions.png'
+            image: '/img/adopt.png'
         },
         {
             id: 3,
@@ -38,11 +38,9 @@ function Portfolio() {
         <div>
             <h2>Portfolio</h2>
             <div className='container-fluid d-flex justify-content-center'>
-                <div className='Row'>
-                    <div className='col-4'>
+                    <div>
                         <Project projects={projects}/>
                     </div>
-                </div>
             </div>
         </div>
     )

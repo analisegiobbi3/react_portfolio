@@ -29,31 +29,52 @@ function Contact(){
     }
 
     return(
-        <div>
-            <p>Feel Free to Reach Out!</p>
+        <div className='container mt-5'>
+            <h2 className='mb-3'>Contact Me!</h2>
             <form className="form">
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder='Name'
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder='Email'
-                />
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder='Your Message Here'
-                />
-                <button type="button" onClick={()=> handleFormSubmit()}>Submit</button>
+                <div className='mb-3'>
+                    <label className='form-label' htmlFor='name'>
+                        Name
+                    </label>
+                    <input
+                        className='form-control'
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder='Name'
+                        required
+                    />                
+                </div>
+                <div className='mb-3'>
+                    <label className='form-label' htmlFor='email'>
+                        Email
+                    </label>
+                    <input
+                        className='form-control'
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder='Email'
+                        required
+                    />
+                </div>
+                <div className='mb-3'>
+                    <label className='form-label' htmlFor='message'>
+                        Message
+                    </label>
+                    <textarea
+                        className='form-control'
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder='Your Message Here'
+                        required
+                    />
+                </div>
+                <button className='btn btn-danger' type='submit' onClick={()=> handleFormSubmit()}>Submit</button>
             </form>
         </div>
     )
