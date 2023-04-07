@@ -1,5 +1,5 @@
 import React from 'react'
-import Projects from './Projects'
+import Project from './Project'
 
 
 function Portfolio() {
@@ -9,35 +9,41 @@ function Portfolio() {
             name:'Just Read It',
             description:'An app for tracking the books you love to read',
             github: 'https://github.com/analisegiobbi3/Just_Read_It',
-            image: '../../assets/books.png'
+            image: '/img/books.jpeg'
         },
         {
             id: 1,
             name:'NoSQL Social Network API',
             description:'Backend project to demo skills using mongoDB',
             github: 'https://github.com/analisegiobbi3/NoSQL_Challenge_Social_Network_API',
-            image: '../../assets/social.png'
+            image: '/img/social.png'
         },
         {
             id: 2,
             name:"Adopt Don't Shop",
             description:'Project showing skills applying third party api data',
             github: 'https://github.com/analisegiobbi3/adopt_dont_shop',
-            image: '../../assets/adoptions.png'
+            image: '/img/adoptions.png'
         },
         {
             id: 3,
             name:'Weather Dashboard',
             description:'Dashboard for searching locations and retrieving weather data',
             github: 'https://github.com/analisegiobbi3/Weather_Dashboard',
-            image: '../../assets/weather.png'
+            image: '/img/weather.png'
         }
     ]
 
     return (
         <div>
             <h2>Portfolio</h2>
-            <Projects projects={projects}/>
+            <div className='container-fluid d-flex justify-content-center'>
+                <div className='Row'>
+                    <div className='col-4'>
+                        <Project projects={projects}/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
