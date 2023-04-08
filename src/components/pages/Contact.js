@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers';
 import SendIcon from '@material-ui/icons/Send';
 import '../../styles/Contact.css'
+import EmailIcon from '@material-ui/icons/Email';
 
 function Contact(){
 
@@ -94,6 +95,7 @@ function Contact(){
                     Submit <SendIcon />
                 </button>
             </form>
+            <a className='email' href="mailto:analise.giobbi@gmail.com"><EmailIcon /></a>
             <div>
                 <p className='error-text'>{errorMessage}</p>
             </div>

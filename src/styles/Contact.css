@@ -33,8 +33,15 @@
 
 }
 
-
 .submitButton:hover{
+    background-color: #588157;
+}
+
+.email{
+    color: #dad7cd;
+}
+
+.email:hover{
     background-color: #588157;
 }
 

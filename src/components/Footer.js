@@ -3,6 +3,7 @@ import '../styles/Footer.css'
 import GithubIcon from '@material-ui/icons/GitHub'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import InstagramIcon from '@material-ui/icons/Instagram';
+import EmailIcon from '@material-ui/icons/Email';
 
 //contains github and linkedin links
 function Footer() {
@@ -17,6 +18,9 @@ function Footer() {
             </a>
             <a href="https://www.instagram.com/argiobbi/" target='_blank' rel="noopener noreferrer">
                 <InstagramIcon />
+            </a>
+            <a href="mailto:analise.giobbi@gmail.com"target='_blank' rel="noopener noreferrer">
+                <EmailIcon />
             </a>
                 <p>&copy; 2023</p>
             </div>
