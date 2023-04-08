@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
-// import { validateEmail } from '../../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact(){
 
-    const [name, setName] = useState('')
     const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
     const [message, setMessage] = useState('');
+
+
     const [errorMessage, setErrorMessage] = useState('')
+
 
     function handleInputChange(e){
         const { target } = e;
@@ -15,22 +18,31 @@ function Contact(){
 
         if (inputType === 'email'){
             setEmail(inputValue)
-        }else if(inputType === 'message'){
-            setMessage(inputValue)
-        }else{
+        }else if (inputType === 'name'){
             setName(inputValue)
-        };
+        }else{
+            setMessage(inputValue)
+        }
     };
 
     function handleFormSubmit (e){
-        e.preventDefault()
-        // if (!validateEmail(email)){
-        //     setErrorMessage('Email is invalid')
-        // }
-        alert('Request Submitted')
-        setEmail('')
-        setMessage('')
-        setName('')
+        e.preventDefault();
+
+        if (!validateEmail(email)){
+            setErrorMessage ('Please add a valid email')
+            return
+        }else if(!email || !name || !message){
+            setErrorMessage ('Please fill out all fields to submit a request')
+            return
+        }
+
+        alert(`Thank you for your message ${name}`)
+
+        setName('');
+        setEmail('');
+        setMessage('');
+        setErrorMessage('');
+
     }
 
     return(
@@ -79,10 +91,10 @@ function Contact(){
                         required
                     />
                 </div>
-                <button className='btn btn-danger' type='submit' onClick={()=> handleFormSubmit()}>Submit</button>
+                <button type="button" onClick={handleFormSubmit}>Submit</button>
             </form>
             <div>
-                {/* <p className='error-text'>{errorMessage}</p> */}
+                <p className='error-text'>{errorMessage}</p>
             </div>
         </div>
     )
