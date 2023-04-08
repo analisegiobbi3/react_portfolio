@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import './styles/App.css'
 
 
-
+//calls main pages which are header and footer
 function App() {
     return(
         <div className='App'>

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers';
+import SendIcon from '@material-ui/icons/Send';
+import '../../styles/Contact.css'
 
 function Contact(){
 
@@ -29,14 +31,14 @@ function Contact(){
         e.preventDefault();
 
         if (!validateEmail(email)){
-            setErrorMessage ('Please add a valid email')
+            setErrorMessage ('Please enter a valid email')
             return
         }else if(!email || !name || !message){
             setErrorMessage ('Please fill out all fields to submit a request')
             return
         }
 
-        alert(`Thank you for your message ${name}`)
+        alert(`${name}, your request has been submitted!`)
 
         setName('');
         setEmail('');
@@ -46,12 +48,11 @@ function Contact(){
     }
 
     return(
-        <div className='container mt-5 contact'>
-            <h2 className='mb-3'>Contact Me!</h2>
+        <div className='container mt-5 contactForm'>
+            <h2 className='mb-3 contactTitle'>Contact Me!</h2>
             <form className="form">
                 <div className='mb-3'>
                     <label className='form-label' htmlFor='name'>
-                        Name
                     </label>
                     <input
                         className='form-control'
@@ -65,7 +66,6 @@ function Contact(){
                 </div>
                 <div className='mb-3'>
                     <label className='form-label' htmlFor='email'>
-                        Email
                     </label>
                     <input
                         className='form-control'
@@ -79,7 +79,6 @@ function Contact(){
                 </div>
                 <div className='mb-3'>
                     <label className='form-label' htmlFor='message'>
-                        Message
                     </label>
                     <textarea
                         className='form-control'
@@ -91,7 +90,10 @@ function Contact(){
                         required
                     />
                 </div>
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <button className="submitButton" type="button" onClick={handleFormSubmit}>
+
+                    Submit <SendIcon />
+                </button>
             </form>
             <div>
                 <p className='error-text'>{errorMessage}</p>

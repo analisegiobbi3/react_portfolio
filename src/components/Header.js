@@ -8,7 +8,7 @@ import NavTabs from './NavTabs'
 import '../styles/Header.css'
 
 
-
+//holds the tabs and switches based on what tab is selected 
 function PortfolioContainer(){
     const [currentPage, setCurrentPage] = useState('About')
 
@@ -27,6 +27,7 @@ function PortfolioContainer(){
         }
     }
 
+    //Main page will be the About tab but this will handle the page changes and show the proper page based on what is set
     const handlePageChange = (page) => setCurrentPage(page)
 
     return (

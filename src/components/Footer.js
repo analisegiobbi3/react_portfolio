@@ -3,6 +3,7 @@ import '../styles/Footer.css'
 import GithubIcon from '@material-ui/icons/GitHub'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 
+//contains github and linkedin links
 function Footer() {
     return(
         <div className='footer'>

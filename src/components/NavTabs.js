@@ -8,7 +8,7 @@ const styles = {
 }
 
 
-
+//function to handle the changing of the tabs. Depending on the tab name, that corresponding page will appear
 function NavTabs ({ currentPage, handlePageChange }){
     return(
         <ul className="nav nav-tabs" >
