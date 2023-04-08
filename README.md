@@ -32,6 +32,22 @@
   ## [Usage](#table-of-contents)
   The purpose of this project is to learn and explore react. This portfolio is used as a virtual resume of projects and skills. It can also be used to contact the engineering if their work is of interest. 
 
+  About Me Page
+  ![About Me](./assets/Screen%20Shot%202023-04-08%20at%205.39.57%20PM.png)
+
+  Body of Work/ Portfolio
+  ![Body of work](./assets/Screen%20Shot%202023-04-08%20at%205.40.10%20PM.png)
+
+  Resume
+  ![Resume](./assets/Screen%20Shot%202023-04-08%20at%205.40.20%20PM.png)
+
+  Contact
+  ![Contact](./assets/Screen%20Shot%202023-04-08%20at%205.40.33%20PM.png)
+
+  Use the Following link to access the deployed site:
+  
+
+
   ## [License](#table-of-contents)
   n/a
 
