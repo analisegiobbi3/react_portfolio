@@ -1,12 +1,13 @@
 .card{
     width: 20rem;
     border: solid;
-    border-color: #CCE3DE;
+    border-color: #253237;
+    border-radius: 20rem;
 
 }
 
 .card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+    box-shadow: 5px 10px 20px 1px rgba(72, 84, 63, 0.831) !important;
 }
 
 .card-body{
@@ -18,7 +19,11 @@
 .card-text{
     font-size: .9rem;
     padding: 0.4rem 1.9rem;
+}
+
+.card-title{
     color: #c2dfe3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -34,11 +39,20 @@ img{
 .link{
     padding-bottom: 1rem;
     background-color: #253237;
+    color: #c2dfe3;
 
 }
 
 .projectItem{
     padding-bottom: 1rem;
+}
+
+.childDiv{
+    margin: auto;
+}
+
+.parentDiv{
+    margin: 40px 0px 40px 0px;
 }
 
 

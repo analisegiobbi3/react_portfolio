@@ -34,7 +34,7 @@ function Contact(){
     }
 
     return(
-        <div className='container mt-5'>
+        <div className='container mt-5 contact'>
             <h2 className='mb-3'>Contact Me!</h2>
             <form className="form">
                 <div className='mb-3'>

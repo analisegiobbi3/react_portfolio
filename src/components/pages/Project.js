@@ -7,8 +7,8 @@ function Project(props) {
     return(
     <div className='row projectItem'>
         {props.projects.map((projects) => (
-        <div className='col-4'>
-            <div className='card text-center'>
+        <div className='col-4 parentDiv'>
+            <div className='card text-center childDiv'>
                 <div className='overflow'>
                     <img src={projects.image} className="card-img-top" alt="..."/>
                 </div>

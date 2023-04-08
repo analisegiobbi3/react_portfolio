@@ -1,4 +1,6 @@
 import React from 'react';
+import '../../styles/Resume.css'
+import DescriptionIcon from '@material-ui/icons/Description';
 
 const styles = {
     resume: {
@@ -6,45 +8,44 @@ const styles = {
     },
     skills: {
         fontSize: '30px'
-
+    },
+    icon: {
+        color: '#cad2c5',
+        marginBottom: '20px',
     }
-
 }
 
 function Resume(){
     return(
-        <div className='columns'>
+        <div className='columns resume'>
             <div className='columns'>
-                <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
-                    target="_blank" rel="noreferrer" >
-                    <h1>Resume</h1>
-                </a>
-
-                <hr />
                 <div className='column'>
-                    <p className='content is-medium' style={styles.skills}>Skills:</p>
+                    <h1 className='content is-large' style={styles.skills}>Skills Summary</h1>
                     <hr />
-                    <h2>Front-End</h2>
+                    <h3>Front-End</h3>
                     <span>
                         HTML, CSS, Javascript, React, BootStrap, NPM, UI test Automation
                     </span>
-                    <h2>Back-End</h2>
+                    <h3>Back-End</h3>
                     <span>
                         API testing, mongoDB, SQL, Express, NodeJS, GraphQL, 
                     </span>
-                    <h2>Languages</h2>
+                    <h3>Languages</h3>
                     <span>
                         Javascript/Typscript, Swift
                     </span>
-                    <h2>Tools</h2>
+                    <h3>Tools</h3>
                     <span>
                         Git, Insomnia 
                     </span>
                 </div>
-                <p className='content is-medium' style={styles.resume}>
-
-                </p>
             </div>
+            <hr />
+            <h5>Download Resume</h5>
+                <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
+                    target="_blank" rel="noreferrer" style={styles.icon}>
+                    <DescriptionIcon />    
+                </a>
         </div>
 
     )

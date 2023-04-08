@@ -4,9 +4,9 @@ import Project from './Project'
 const style = {
     header: {
         textAlign: 'center',
-        color: '#84a98c',
+        color: '#343a40',
         fontFamily: 'Georgia',
-        marginTop: '5px'
+        fontSize: '50px',
     },
     background: {
         backgroundColor: '#738290'

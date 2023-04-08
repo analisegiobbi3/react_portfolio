@@ -3,14 +3,6 @@ import '../styles/Footer.css'
 import GithubIcon from '@material-ui/icons/GitHub'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 
-const styles = {
-    image: {
-        width: '3%',
-        height: '3%',
-
-    }
-}
-
 function Footer() {
     return(
         <div className='footer'>
