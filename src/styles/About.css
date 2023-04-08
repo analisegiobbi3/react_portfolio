@@ -28,7 +28,7 @@
 
 .about img{
     border-radius: 1rem;
-    height: 50%;
+    height: 60%;
     border-style: groove;
     border-color: #A4C3B2;
 }
@@ -39,4 +39,5 @@
     margin-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
+    font-size: 20px;
 }
