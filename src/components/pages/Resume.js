@@ -21,28 +21,21 @@ function Resume(){
                     <p className='content is-medium'>Skills:</p>
                     <hr />
                     <h2>Front-End</h2>
-                    <ol>
-                        <li>HTML, CSS, Javascript</li>
-                        <li>Insomnia, API Testing</li>
-                        <li>mongoDB, SQL</li>
-                        <li>Git</li>
-                        <li>React</li>
-                    </ol>
+                    <span>
+                        HTML, CSS, Javascript, React,  UI test Automation
+                    </span>
                     <h2>Back-End</h2>
-                    <ol>
-                        <li>HTML, CSS, Javascript</li>
-                        <li>Insomnia, API Testing</li>
-                        <li>mongoDB, SQL</li>
-                        <li>Git</li>
-                        <li>React</li>
-                    </ol>
+                    <span>
+                        API testing, mongoDB, SQL
+                    </span>
                     <h2>Languages</h2>
-                    <ol>
-                        <li>Javascript/Typscript</li>
-                        <li>Swift</li>
-
-                    </ol>
-
+                    <span>
+                        Javascript/Typscript, Swift
+                    </span>
+                    <h2>Tools</h2>
+                    <span>
+                        Git, Insomnia 
+                    </span>
                 </div>
                 <p className='content is-medium' style={styles.resume}>
                     <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
