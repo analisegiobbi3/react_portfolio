@@ -8,6 +8,9 @@ const style = {
         fontFamily: 'Georgia',
         marginTop: '5px'
     },
+    background: {
+        backgroundColor: '#738290'
+    }
 }
 
 
@@ -40,11 +43,25 @@ function Portfolio() {
             description:'Dashboard for searching locations and retrieving weather data',
             github: 'https://github.com/analisegiobbi3/Weather_Dashboard',
             image: '/img/weather.png'
+        },
+        {
+            id: 4,
+            name:'Note Taker',
+            description:'App for Taking notes',
+            github: 'https://github.com/analisegiobbi3/Note_taker_app',
+            image: '/img/noteTaker.png'
+        },
+        {
+            id: 5,
+            name:'README Generator',
+            description:'Uses NodeJS to create a readme generator',
+            github: 'https://github.com/analisegiobbi3/Professional_ReadME_Gen',
+            image: '/img/readmegen.png'
         }
     ]
 
     return (
-        <div className='projects'>
+        <div className='projects' style={style.background}>
             <h2 style={style.header}>My Projects</h2>
             <div className='container-fluid d-flex justify-content-center projectList'>
                     <div>

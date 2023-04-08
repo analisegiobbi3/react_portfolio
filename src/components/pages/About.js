@@ -14,22 +14,18 @@ function About(){
     return(
         <div className='Home'>
             <div className='about'>
-                <h2>My name is Analise and I am an aspiring Full Stack Engineer</h2>
+                <h2>Hi, I'm Analise</h2>
                 <img src='/img/header_image.png'></img>
                 <div className='prompt'>
                     <p>
-                        I graduated from from the University of Connecticut with a bachelors in Mechanical Engineering. Since then I have explored several different 
+                        I am an aspiring Full Stack Engineer. I graduated from from the University of Connecticut with a bachelors in Mechanical Engineering. Since then I have explored several different 
                         fields of engineering, from systems, to software, to quality. I have the most experience in Quality Assurance and I am looking to expand my skill set and knowledge. 
                         Currently, I work for GameChanger by Dick's Sporting Goods as the Software Release Manager. I have experience in UI test automation, CI, and 
                         quality monitoring.
                     </p>
                 </div>
-
-
             </div>
-
         </div>
-
     )
 }
 

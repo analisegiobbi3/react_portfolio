@@ -5,6 +5,7 @@ const styles = {
         textAlign: 'center'
     },
     skills: {
+        fontSize: '30px'
 
     }
 
@@ -14,11 +15,14 @@ function Resume(){
     return(
         <div className='columns'>
             <div className='columns'>
-                <h1>Resume</h1>
+                <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
+                    target="_blank" rel="noreferrer" >
+                    <h1>Resume</h1>
+                </a>
 
                 <hr />
                 <div className='column'>
-                    <p className='content is-medium'>Skills:</p>
+                    <p className='content is-medium' style={styles.skills}>Skills:</p>
                     <hr />
                     <h2>Front-End</h2>
                     <span>
@@ -38,10 +42,7 @@ function Resume(){
                     </span>
                 </div>
                 <p className='content is-medium' style={styles.resume}>
-                    <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
-                    target="_blank" rel="noreferrer" >
-                    <span >Download Resume</span>
-                    </a>
+
                 </p>
             </div>
         </div>

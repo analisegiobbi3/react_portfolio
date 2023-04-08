@@ -14,17 +14,27 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ccd5ae;
+    background-color: #738290;
 
 }
 
 .about h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: 80px;
-    color: #4a4e69;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    color: #A4C3B2;
     height: 50px;
+    margin-bottom: 60px;
+}
+
+.about img{
+    border-radius: 1rem;
+    height: 50%;
+    border-style: groove;
+    border-color: #A4C3B2;
 }
 
 .prompt{
-
+    color: #F6FFF8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
 }
