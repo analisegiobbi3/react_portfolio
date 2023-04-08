@@ -44,9 +44,9 @@ function Portfolio() {
     ]
 
     return (
-        <div>
+        <div className='projects'>
             <h2 style={style.header}>My Projects</h2>
-            <div className='container-fluid d-flex justify-content-center'>
+            <div className='container-fluid d-flex justify-content-center projectList'>
                     <div>
                         <Project projects={projects}/>
                     </div>

@@ -4,7 +4,7 @@ import '../../styles/Project.css'
 function Project(props) {
 
     return(
-        <div className='row'>
+        <div className='row projectItem'>
             {props.projects.map((projects) => (
             <div className='col-4'>
                 <div className='card text-center'>

@@ -22,11 +22,11 @@ function Resume(){
                     <hr />
                     <h2>Front-End</h2>
                     <span>
-                        HTML, CSS, Javascript, React,  UI test Automation
+                        HTML, CSS, Javascript, React, BootStrap, NPM, UI test Automation
                     </span>
                     <h2>Back-End</h2>
                     <span>
-                        API testing, mongoDB, SQL
+                        API testing, mongoDB, SQL, Express, NodeJS, GraphQL, 
                     </span>
                     <h2>Languages</h2>
                     <span>
