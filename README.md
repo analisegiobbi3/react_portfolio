@@ -15,13 +15,22 @@
   ---
 
   ## [Description](#table-of-contents)
-  create a portfolio using react
+ The purpose of this project was to create a front end react application. This application will serve as a portfolio of projects that you have created and want to demo. 
 
   ## [Installation](#table-of-contents)
-  add
+
+  To work on this application locally, clone the repo through github. Install all of the necessary packages with the following command:
+  ```
+  npm install
+  ```
+  to start the application locally, run
+
+  ```
+  npm start
+  ```
 
   ## [Usage](#table-of-contents)
-  add
+  The purpose of this project is to learn and explore react. This portfolio is used as a virtual resume of projects and skills. It can also be used to contact the engineering if their work is of interest. 
 
   ## [License](#table-of-contents)
   n/a
