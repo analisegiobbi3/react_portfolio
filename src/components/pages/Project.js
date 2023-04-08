@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import '../../styles/Project.css'
 import GithubIcon from '@material-ui/icons/GitHub'
+import LinkIcon from '@material-ui/icons/Link';
 
 
 function Project(props) {
@@ -18,6 +19,9 @@ function Project(props) {
                 </div>
                     <a className='link' href={projects.github} target='_blank' rel="noopener noreferrer">
                     <GithubIcon />
+                    </a>
+                    <a className='link' href={projects.link} target='_blank' rel="noopener noreferrer">
+                    <LinkIcon />
                     </a>
             </div>
         </div>

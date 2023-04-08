@@ -91,7 +91,6 @@ function Contact(){
                     />
                 </div>
                 <button className="submitButton" type="button" onClick={handleFormSubmit}>
-
                     Submit <SendIcon />
                 </button>
             </form>

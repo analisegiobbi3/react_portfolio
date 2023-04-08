@@ -41,11 +41,13 @@ function Resume(){
                 </div>
             </div>
             <hr />
-            <h5>Download Resume</h5>
+            <button className='downloadButton'>
                 <a className='button is-primary' href={process.env.PUBLIC_URL + "/AGiobbi_Resume_2023.pdf"}
                     target="_blank" rel="noreferrer" style={styles.icon}>
-                    <DescriptionIcon />    
+                    Download <DescriptionIcon />    
                 </a>
+            </button>
+
         </div>
 
     )

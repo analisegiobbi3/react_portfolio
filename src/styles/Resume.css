@@ -2,3 +2,16 @@
     background-color: #738290;
     color: #A4C3B2
 }
+
+.downloadButton{
+    color: #dad7cd;
+    background-color: #344e41;
+    border: 2px solid #2f3e46;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.downloadButton:hover{
+    background-color: #588157;
+}
+

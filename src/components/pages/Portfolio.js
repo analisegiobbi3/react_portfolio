@@ -4,7 +4,7 @@ import Project from './Project'
 const style = {
     header: {
         textAlign: 'center',
-        color: '#343a40',
+        color: '#A4C3B2',
         fontFamily: 'Georgia',
         fontSize: '50px',
     },
@@ -21,42 +21,48 @@ function Portfolio() {
             name:'Just Read It',
             description:'An app for tracking the books you love to read',
             github: 'https://github.com/analisegiobbi3/Just_Read_It',
-            image: '/img/books.png'
+            image: '/img/books.png',
+            link: 'https://warm-cove-40506.herokuapp.com/',
         },
         {
             id: 1,
             name:'NoSQL Social Network API',
             description:'Backend project to demo skills using mongoDB',
             github: 'https://github.com/analisegiobbi3/NoSQL_Challenge_Social_Network_API',
-            image: '/img/social.png'
+            image: '/img/social.png',
+            link:'https://bootcampspot.instructuremedia.com/embed/8e8a929a-2fbc-458c-b7fc-975ba50aa9cc'
         },
         {
             id: 2,
             name:"Adopt Don't Shop",
             description:'Project showing skills applying third party api data',
             github: 'https://github.com/analisegiobbi3/adopt_dont_shop',
-            image: '/img/adopt.png'
+            image: '/img/adopt.png',
+            link: 'https://analisegiobbi3.github.io/adopt_dont_shop/',
         },
         {
             id: 3,
             name:'Weather Dashboard',
             description:'Dashboard for searching locations and retrieving weather data',
             github: 'https://github.com/analisegiobbi3/Weather_Dashboard',
-            image: '/img/weather.png'
+            image: '/img/weather.png',
+            link: 'https://analisegiobbi3.github.io/Weather_Dashboard/',
         },
         {
             id: 4,
             name:'Note Taker',
             description:'App for Taking notes',
             github: 'https://github.com/analisegiobbi3/Note_taker_app',
-            image: '/img/noteTaker.png'
+            image: '/img/noteTaker.png',
+            link: 'https://thawing-bastion-65947.herokuapp.com/',
         },
         {
             id: 5,
             name:'README Generator',
             description:'Uses NodeJS to create a readme generator',
             github: 'https://github.com/analisegiobbi3/Professional_ReadME_Gen',
-            image: '/img/readmegen.png'
+            image: '/img/readmegen.png',
+            link: 'https://bootcampspot.instructuremedia.com/embed/cdebd7b5-33be-49af-90b0-5511d1bc0afd',
         }
     ]
 
