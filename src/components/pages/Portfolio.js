@@ -28,7 +28,7 @@ function Portfolio() {
             name:'Just Read It',
             description:'An app for tracking the books you love to read',
             github: 'https://github.com/analisegiobbi3/Just_Read_It',
-            image: {Books},
+            image: Books,
             link: 'https://warm-cove-40506.herokuapp.com/',
         },
         {
@@ -36,7 +36,7 @@ function Portfolio() {
             name:'NoSQL Social Network API',
             description:'Backend project to demo skills using mongoDB',
             github: 'https://github.com/analisegiobbi3/NoSQL_Challenge_Social_Network_API',
-            image: {Social},
+            image: Social,
             link:'https://bootcampspot.instructuremedia.com/embed/8e8a929a-2fbc-458c-b7fc-975ba50aa9cc'
         },
         {
@@ -44,7 +44,7 @@ function Portfolio() {
             name:"Adopt Don't Shop",
             description:'Project showing skills applying third party api data',
             github: 'https://github.com/analisegiobbi3/adopt_dont_shop',
-            image: {Adopt},
+            image: Adopt,
             link: 'https://analisegiobbi3.github.io/adopt_dont_shop/',
         },
         {
@@ -52,7 +52,7 @@ function Portfolio() {
             name:'Weather Dashboard',
             description:'Dashboard for searching locations and retrieving weather data',
             github: 'https://github.com/analisegiobbi3/Weather_Dashboard',
-            image: {Weather},
+            image: Weather,
             link: 'https://analisegiobbi3.github.io/Weather_Dashboard/',
         },
         {
@@ -60,7 +60,7 @@ function Portfolio() {
             name:'Note Taker',
             description:'App for Taking notes',
             github: 'https://github.com/analisegiobbi3/Note_taker_app',
-            image: {noteTaker},
+            image: noteTaker,
             link: 'https://thawing-bastion-65947.herokuapp.com/',
         },
         {
@@ -68,7 +68,7 @@ function Portfolio() {
             name:'README Generator',
             description:'Uses NodeJS to create a readme generator',
             github: 'https://github.com/analisegiobbi3/Professional_ReadME_Gen',
-            image: {Readme},
+            image: Readme,
             link: 'https://bootcampspot.instructuremedia.com/embed/cdebd7b5-33be-49af-90b0-5511d1bc0afd',
         }
     ]
