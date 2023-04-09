@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/About.css'
+import headerImage from '../../../public/img/header_img.png'
 
 
 const styles = {
@@ -15,7 +16,7 @@ function About(){
         <div className='Home'>
             <div className='about'>
                 <h2>Hi, I'm Analise</h2>
-                <img src='react_portfolio/img/header_image.png'></img>
+                <img src={headerImage}></img>
                 <div className='prompt'>
                     <p>
                         I am an aspiring Full Stack Engineer. I graduated from from the University of Connecticut with a bachelors in Mechanical Engineering. Since then I have explored several different 
