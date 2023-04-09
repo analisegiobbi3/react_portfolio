@@ -15,7 +15,7 @@ function About(){
         <div className='Home'>
             <div className='about'>
                 <h2>Hi, I'm Analise</h2>
-                <img src='/img/header_image.png'></img>
+                <img src='react_portfolio/img/header_image.png'></img>
                 <div className='prompt'>
                     <p>
                         I am an aspiring Full Stack Engineer. I graduated from from the University of Connecticut with a bachelors in Mechanical Engineering. Since then I have explored several different 
