@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/About.css'
-import headerImage from '../../../public/img/header_img.png'
+import headerImage from '../../img/header_image.png'
 
 
 const styles = {
