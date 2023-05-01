@@ -6,7 +6,7 @@ import noteTaker from '../../img/noteTaker.png'
 import Weather from '../../img/weather.png'
 import Readme from '../../img/readmegen.png'
 import Social from '../../img/social.png'
-import StepItUp from '../../img/StepItUp.png'
+import StepItUp from '../../img/stepitup.png'
 
 
 const style = {
