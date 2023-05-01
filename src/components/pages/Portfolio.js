@@ -6,6 +6,7 @@ import noteTaker from '../../img/noteTaker.png'
 import Weather from '../../img/weather.png'
 import Readme from '../../img/readmegen.png'
 import Social from '../../img/social.png'
+import StepItUp from '../../img/StepItUp.png'
 
 
 const style = {
@@ -70,6 +71,14 @@ function Portfolio() {
             github: 'https://github.com/analisegiobbi3/Professional_ReadME_Gen',
             image: Readme,
             link: 'https://bootcampspot.instructuremedia.com/embed/cdebd7b5-33be-49af-90b0-5511d1bc0afd',
+        },
+        {
+            id: 6,
+            name:'Step It Up',
+            description:'Fitness app that uses react and graphQL',
+            github: 'https://github.com/analisegiobbi3/Step_IT_Up',
+            image: StepItUp,
+            link: 'https://step-it-up.herokuapp.com/',
         }
     ]
 
